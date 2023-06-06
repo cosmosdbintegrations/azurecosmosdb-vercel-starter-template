@@ -2,7 +2,7 @@ This is a starter Todo app showing integration between Next.js with Azure Cosmos
 
 ## Running the Project - 
 
-### Pre requisites
+### Pre requisites -
 1. Azure CosmosDb account, database and container. Please make sure the partitionkey for container is '/id'.
 
 1. Install dependencies - `npm install`
