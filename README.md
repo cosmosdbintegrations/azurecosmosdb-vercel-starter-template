@@ -1,0 +1,1 @@
+# azurecosmosdb-vercel-starter-template
