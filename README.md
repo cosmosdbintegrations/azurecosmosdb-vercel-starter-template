@@ -6,7 +6,9 @@ A simple Todo App built on [Next.js](https://nextjs.org/) and [Azure Cosmos DB](
 
 ### Pre requisites
 
-Azure [CosmosDb account](aka.ms/trycosmosdbvercel), database and container. Please make sure the partitionkey for container is '/id'.
+- Azure [CosmosDb account](aka.ms/trycosmosdbvercel), database and container. Please make sure the partitionkey for container is '/id'.
+
+- Latest Node and NPM packages installed.
 
 ### Steps
 
@@ -19,8 +21,6 @@ Azure [CosmosDb account](aka.ms/trycosmosdbvercel), database and container. Plea
    - COSMOSDB_CONTAINER_NAME : This is the name of the container to store todos.
 
 3. Start the project - `npm run dev`
-
-4. if you get a depencency error with "@emotion/react", run 'npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion'"
 
 ## Demo
 
