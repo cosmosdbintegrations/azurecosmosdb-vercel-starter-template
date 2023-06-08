@@ -18,7 +18,7 @@ Azure [Cosmos DB account](https://aka.ms/trycosmosdbvercel), database and contai
    - COSMOSDB_DATABASE_NAME : This is the name of the database to store todos.
    - COSMOSDB_CONTAINER_NAME : This is the name of the container to store todos.
 
-You can obtain the connection string by navigating to your Azure Cosmos DB account page's key blade, and select Primary connection string. Copy the value to use in the Data API Builder.
+You can obtain the connection string by navigating to your Azure Cosmos DB account page's key blade, and select Primary connection string. Copy the value to use as COSMOSDB_CONNECTION_STRING.
 
 ![Cosmos DB connection string](./public/images/cosmos-connection.png)
 
